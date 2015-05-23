@@ -102,6 +102,15 @@ a {
   padding-right: 1em;
 }
 
+.projects {
+  text-align: center;
+}
+
+.projects li {
+  display: inline-block;
+  padding-right: 5em;
+}
+
 @media only screen and (max-width: 500px) {
   .masthead {
     padding: 3em 0;
