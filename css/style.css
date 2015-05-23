@@ -1,0 +1,117 @@
+.masthead {
+  padding: 6em 0;
+  background: url(https://download.unsplash.com/photo-1427348693976-99e4aca06bb9) center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em DeepSkyBlue;
+}
+
+.masthead-intro {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  text-shadow: 1px 1px 1px DarkGray;
+  margin-bottom: 0.1em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Source Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 
+  1px 0px 1px DarkGray, 0px 1px 1px DarkGray, 
+  2px 1px 1px DarkGray, 1px 2px 1px DarkGray,
+  3px 2px 1px DarkGray, 2px 3px 1px DarkGray,
+  4px 3px 1px DarkGray, 3px 4px 1px DarkGray,
+  5px 4px 1px DarkGray, 4px 5px 1px DarkGray,
+  6px 5px 1px DarkGray, 5px 6px 1px DarkGray,
+  7px 6px 1px DarkGray;
+}
+
+h3 {
+  color: DeepSkyBlue;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  font-family: "Source Sans", Helvetica, Arial, sans-serif;
+  text-shadow: 0 1px 0 DarkGray;
+  text-align: left;
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+  text-align: center;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+.content-footer > p {
+  color: white;
+}
+
+section {
+  padding-bottom: 1em;
+}
+
+footer {
+  background-color: DimGray;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+body {
+  /* Typography Declarations */
+
+  color: #222222;
+  font-size: 1em;
+  font-family: "Source Sans", "Helvetica Neue", sans-serif;
+}
+
+.introduction > p,
+.location > p,
+.content-footer > p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+a {
+  color: darkblue;
+  text-decoration: none; /* no underline */
+}
+
+.social li {
+  padding-right: 1em;
+}
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+
+  .masthead-heading {
+    font-size: 3em;
+  }
+
+  .content-footer > p {
+    font-size: 0.8em;
+  }
+}
