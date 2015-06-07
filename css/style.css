@@ -1,10 +1,9 @@
 .masthead {
   padding: 6em 0;
-  background: url(https://download.unsplash.com/photo-1427348693976-99e4aca06bb9) center center;
+  background: url('../images/golden-gate-bridge.jpg') center center;
   background-size: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: solid 1em DeepSkyBlue;
 }
 
 .masthead-intro {
