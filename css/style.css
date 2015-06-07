@@ -1,10 +1,10 @@
 .masthead {
   padding: 3em 0;
-  background-color: #B2EBF2;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: center;
+  background-color: #b2ebf2;
+  background-image: url('../images/black-mamba.png');
+  /* This is mostly intended for prototyping; please download the pattern and
+   * re-host for production environments. Thank you! */
 }
 
 .masthead li {
@@ -13,7 +13,8 @@
 }
 
 .masthead a {
-  color: #0097A7;
+  font-size: 1.2em;
+  color: black;
 }
 
 html {
@@ -39,6 +40,7 @@ html {
 }
 
 .masthead-heading {
+  margin:0;
   margin-top: -0.2em;
   font-family: "Source Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
@@ -72,9 +74,6 @@ h2, h3 {
   color: #B2EBF2;
 }
 
-.projects {
-  color: #B2EBF2;
-}
 
 .masthead-heading,
 .masthead-intro,
@@ -95,9 +94,14 @@ section {
 }
 
 footer {
+  background-image: url('../images/black-mamba.png');
   background-color: #B2EBF2;
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+footer a {
+  color: black;
 }
 
 body {
@@ -134,6 +138,7 @@ a {
 }
 
 .projects {
+  color: #B2EBF2;
   text-align: center;
 }
 
