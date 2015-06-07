@@ -137,23 +137,5 @@ a {
     -moz-columns: 18em 2;
     columns: 18em 2;
   }
-
-  @supports (shape-outside: circle(50%)){
-    /* styles only for browsers which support CSS Shapes */
-    .intro-shape {
-      float: right;
-      width: 45em;
-      height: 26em;
-      shape-outside: polygon(100% 0, 100% 100%, 0 100%);
-    }
-
-    .loc-shape {
-      float: left;
-      width: 45em;
-      height: 15em;
-      shape-outside: polygon(0 0, 100% 0, 0 100%);
-    }
-  }
-
 }
 
