@@ -4,6 +4,16 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
+}
+
+.masthead li {
+  display: inline-block;
+  padding: 1em;
+}
+
+.masthead a {
+  color: #0097A7;
 }
 
 html {
