@@ -19,8 +19,6 @@ html {
   text-align: center;
   background-color: #b2ebf2;
   background-image: url('../images/black-mamba.png');
-  /* This is mostly intended for prototyping; please download the pattern and
-   * re-host for production environments. Thank you! */
 }
 
 .masthead li {
@@ -74,7 +72,6 @@ h2, h3 {
   color: #B2EBF2;
 }
 
-
 .masthead-heading,
 .masthead-intro,
 .content-footer {
@@ -124,7 +121,6 @@ body {
 .questions-section > h2 {
   /* Typography Declarations */
   font-family: "Gentium Book Basic", Georgia, serif;
-  font-size: 1.2em;
   font-weight: bold;
 }
 
@@ -171,6 +167,12 @@ div#columns figure img {
   margin-bottom: 5px;
 }
 
+#answers {
+  -webkit-columns: 18em 2;
+  -moz-columns: 18em 2;
+  columns: 18em 2;
+}
+
 @media only screen and (max-width: 500px) {
   .masthead {
     padding: 3em 0;
@@ -190,12 +192,3 @@ div#columns figure img {
     font-size: 0.8em;
   }
 }
-
-@media only screen and (min-width: 1000px) {
-  .questions-section {
-    -webkit-columns: 18em 2;
-    -moz-columns: 18em 2;
-    columns: 18em 2;
-  }
-}
-
