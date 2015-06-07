@@ -1,3 +1,19 @@
+html {
+  background-image:
+    linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/golden-gate-bridge.jpg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .masthead {
   padding: 3em 0;
   text-align: center;
@@ -15,22 +31,6 @@
 .masthead a {
   font-size: 1.2em;
   color: black;
-}
-
-html {
-  background-image:
-    linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-    ),
-    url('../images/golden-gate-bridge.jpg');
-  background-position: center center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .masthead-intro {
@@ -142,9 +142,33 @@ a {
   text-align: center;
 }
 
-.projects li {
+#columns {
+  -webkit-columns: 18em 3;
+  -moz-columns: 18em 3;
+  columns: 18em 3;
+  column-width: 320px;
+  column-gap: 15px;
+  width: 90%;
+  max-width: 1100px;
+  margin: 50px auto;
+}
+
+div#columns figure {
+  background: #0097A7;
+  border: 2px solid #B6B6B6;
+  box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+  margin: 0 2px 15px;
+  padding: 15px; padding-bottom: 10px;
+  transition: opacity .4s ease-in-out;
+  column-break-inside: avoid;
   display: inline-block;
-  padding-right: 5em;
+}
+
+div#columns figure img {
+  width: 100%; height: auto;
+  border-bottom: 1px solid #B6B6B6;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -156,7 +180,7 @@ a {
     font-size: 3em;
   }
 
-  .projects li a img {
+  .projects img {
     width: 100%;
     padding: 0;
     margin: 0;
