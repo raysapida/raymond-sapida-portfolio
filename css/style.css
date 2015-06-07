@@ -40,7 +40,7 @@ h3 {
   font-family: "Source Sans", Helvetica, Arial, sans-serif;
   text-shadow: 0 1px 0 DarkGray;
   text-align: left;
-  max-width: 38em;
+  max-width: 45em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
@@ -130,3 +130,30 @@ a {
     font-size: 0.8em;
   }
 }
+
+@media only screen and (min-width: 1000px) {
+  .questions-section {
+    -webkit-columns: 18em 2;
+    -moz-columns: 18em 2;
+    columns: 18em 2;
+  }
+
+  @supports (shape-outside: circle(50%)){
+    /* styles only for browsers which support CSS Shapes */
+    .intro-shape {
+      float: right;
+      width: 45em;
+      height: 26em;
+      shape-outside: polygon(100% 0, 100% 100%, 0 100%);
+    }
+
+    .loc-shape {
+      float: left;
+      width: 45em;
+      height: 15em;
+      shape-outside: polygon(0 0, 100% 0, 0 100%);
+    }
+  }
+
+}
+
