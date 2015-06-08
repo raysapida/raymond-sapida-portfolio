@@ -55,8 +55,12 @@ html {
   7px 6px 1px DarkGray;
 }
 
-h2, h3 {
+h2 {
   color: #0097A7;
+}
+
+h3 {
+  color: white;
 }
 
 .introduction-section,
@@ -191,4 +195,46 @@ div#columns figure img {
   .content-footer > p {
     font-size: 0.8em;
   }
+}
+
+
+/* Button Styles */
+.btn {
+  background-color:#B2EBF2;
+  -moz-border-radius:6px;
+  -webkit-border-6pxradius:6px;
+  border-radius:6px;
+  border:1px solid #212121;
+  display:inlineine-block;
+  cursor:pointer;
+  color: #212121;
+  font-family:Arial;
+  font-shadowize:16px;
+  padding:5px 16px;
+  text-decoration:none;
+  text-shadow:0px 1pxx 0px #2f6627;
+}
+.btn:hover {
+  background-color:#48A1A7;
+}
+.btn:active {
+  position:relative;
+  top:1px;
+}
+
+/* Modal Styles */
+.modal-box {
+  display: none;
+}
+
+.modal-overlay {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3) !important;
 }
