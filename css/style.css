@@ -76,6 +76,13 @@ h3 {
   color: #B2EBF2;
 }
 
+.projects{
+  max-width: 45em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
 .masthead-heading,
 .masthead-intro,
 .content-footer {
@@ -143,9 +150,9 @@ a {
 }
 
 #columns {
-  -webkit-columns: 18em 3;
-  -moz-columns: 18em 3;
-  columns: 18em 3;
+  -webkit-columns: 18em 2;
+  -moz-columns: 18em 2;
+  columns: 18em 2;
   column-width: 320px;
   column-gap: 15px;
   width: 90%;
