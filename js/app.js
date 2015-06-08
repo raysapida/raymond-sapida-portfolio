@@ -4,15 +4,19 @@ $(function(){
 
   $('a[data-modal-id]').click(function(e) {
     e.preventDefault();
+    $("landing-page-btn").fadeOut(500, function() {
+      $("landing-page-btn").remove();
+    });
     $("body").append(appendthis);
     $(".modal-overlay").fadeTo(500, 0.7);
     //$(".js-modalbox").fadeIn(500);
     var modalBox = $(this).attr('data-modal-id');
     $('#'+modalBox).fadeIn($(this).data());
-  });  
+  });
 
 
-  $(".js-modal-close, .modal-overlay").click(function() {
+  $(".js-modal-close, .modal-overlay").click(function(e) {
+    e.preventDefault();
     $(".modal-box, .modal-overlay").fadeOut(500, function() {
       $(".modal-overlay").remove();
     });
