@@ -4,9 +4,6 @@ $(function(){
 
   $('a[data-modal-id]').click(function(e) {
     e.preventDefault();
-    $("landing-page-btn").fadeOut(500, function() {
-      $("landing-page-btn").remove();
-    });
     $("body").append(appendthis);
     $(".modal-overlay").fadeTo(500, 0.7);
     //$(".js-modalbox").fadeIn(500);
