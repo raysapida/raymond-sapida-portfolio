@@ -64,7 +64,7 @@ h3 {
 }
 
 .introduction-section,
-.location-section,
+.skill-section,
 .questions-section {
   font-family: "Source Sans", Helvetica, Arial, sans-serif;
   text-shadow: 0 1px 0 DarkGray;
@@ -114,7 +114,7 @@ body {
 }
 
 .introduction > p,
-.location > p,
+.skill > p,
 .content-footer > p {
   /* Typography Declarations */
   color: #212121;
@@ -172,6 +172,12 @@ div#columns figure img {
 }
 
 #answers {
+  -webkit-columns: 18em 2;
+  -moz-columns: 18em 2;
+  columns: 18em 2;
+}
+
+#skills {
   -webkit-columns: 18em 2;
   -moz-columns: 18em 2;
   columns: 18em 2;
