@@ -64,6 +64,7 @@ h3 {
 }
 
 .introduction-section,
+.email-form,
 .skill-section,
 .questions-section {
   font-family: "Source Sans", Helvetica, Arial, sans-serif;
@@ -262,4 +263,21 @@ div#columns figure img {
   float: left;
   margin-right: 1.2em;
   shape-outside: circle(50%);
+}
+
+.contact-message {
+  display: block;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+input,
+textarea {
+  display: inline-block;
+  padding: 0.25em;
+  margin: 0.25em;
+  text-align: start;
 }

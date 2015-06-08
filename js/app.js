@@ -1,4 +1,6 @@
 $(function(){
+  var contactform =  document.getElementById('contactform');
+      contactform.setAttribute('action', '//formspree.io/' + 'ray.sapida' + '@' + 'gmail' + '.' + 'com');
 
   var appendthis =  ("<div class='modal-overlay js-modal-close'></div>");
 
