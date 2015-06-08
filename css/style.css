@@ -235,18 +235,6 @@ div#columns figure img {
   display: none;
 }
 
-.modal-overlay {
-  opacity: 0;
-  filter: alpha(opacity=0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 900;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.3) !important;
-}
-
 #profile-pic {
   background-image: url('../images/profile_pic.jpg');
   display: block;
@@ -265,6 +253,12 @@ div#columns figure img {
   shape-outside: circle(50%);
 }
 
+.email-form {
+  width: 30em;
+  text-align: center;
+  padding-bottom: 5em;
+}
+
 .contact-message {
   display: block;
 }
@@ -272,12 +266,28 @@ div#columns figure img {
 form {
   display: block;
   margin-top: 0em;
+  background-color: #0097A7;
+  padding: 1em;
 }
 
-input,
-textarea {
+.feedback-input {
   display: inline-block;
   padding: 0.25em;
   margin: 0.25em;
   text-align: start;
+  width: 100%;
+}
+
+.fa-user,
+.fa-envelope,
+.fa-penvil {
+}
+
+input:focus,
+textarea:focus {
+  background: #fff;
+  box-shadow: 0;
+  border: 0.1em solid #B2EBF2;
+  color: #0097A7;
+  outline: none;
 }

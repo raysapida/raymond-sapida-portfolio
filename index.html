@@ -355,21 +355,22 @@
     <section class="email-form">
       <p class="contact-message">
       I'm always interested about finding new resources to learn so feel free to
-      contact me with advice or
+      contact me with advice, opportunities out there that would fit my skill
+      set and experience, or just to say hi!
       </p>
       <form id="contactform" method="POST">
         <input type="hidden" name="_subject" value="Website contact!" />
         <input type="text" name="_gotcha" style="display:none" />
         <i class="fa fa-user">
-        <input type="text" name="name" placeholder="Your name">
+        <input type="text" class="feedback-input" name="name" placeholder="Your name">
         </i>
         <br />
         <i class="fa fa-envelope">
-        <input type="email" name="_replyto" placeholder="Your email">
+        <input type="email" class="feedback-input" name="_replyto" placeholder="Your email">
         </i>
         <br />
         <i class="fa fa-pencil">
-        <textarea name="message" rows="4" placeholder="Your message"></textarea>
+        <textarea name="message" class="feedback-input" rows="4" placeholder="Your message"></textarea>
         </i>
         <br />
         <input class="btn" type="submit" value="Send">
@@ -377,7 +378,7 @@
     </section>
 
   <footer class="content-footer">
-    <p>Contact me through these methods:</p>
+    <p>Follow me through these sites:</p>
     <ul class="social">
         <li><a href="https://github.com/raysapida" class="fa fa-github fa-2x"></a></li>
         <li><a href="http://raysapida.github.io/feed.xml" class="fa fa-rss fa-2x"></a></li>
