@@ -207,7 +207,6 @@ div#columns figure img {
   .page-links {
     display: none;
   }
-
 }
 
 /* Button Styles */
@@ -257,7 +256,7 @@ div#columns figure img {
 }
 
 .email-form {
-  width: 30em;
+  width: 25em;
   text-align: center;
   padding-bottom: 5em;
 }
