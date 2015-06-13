@@ -185,9 +185,6 @@ div#columns figure img {
   columns: 18em 2;
 }
 
-@media only screen and (max-width: 320px) {
-}
-
 @media only screen and (max-width: 500px) {
   .masthead {
     padding: 3em 0;
@@ -206,27 +203,11 @@ div#columns figure img {
   .content-footer > p {
     font-size: 0.8em;
   }
-}
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-  /* Styles */
-  html {
-    background-image:
-    linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-    ),
-    url('../images/golden-gate-bridge.jpg');
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+  .page-links {
+    display: none;
   }
+
 }
 
 /* Button Styles */
