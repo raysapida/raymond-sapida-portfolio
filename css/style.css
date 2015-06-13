@@ -185,28 +185,10 @@ div#columns figure img {
   columns: 18em 2;
 }
 
-@media only screen and (max-width: 500px) {
-  .masthead {
-    padding: 3em 0;
-  }
-
-  .masthead-heading {
-    font-size: 3em;
-  }
-
-  .projects img {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-
-  .content-footer > p {
-    font-size: 0.8em;
-  }
-
-  .page-links {
-    display: none;
-  }
+.email-form {
+  width: 35em;
+  text-align: center;
+  padding-bottom: 5em;
 }
 
 /* Button Styles */
@@ -255,12 +237,6 @@ div#columns figure img {
   shape-outside: circle(50%);
 }
 
-.email-form {
-  width: 25em;
-  text-align: center;
-  padding-bottom: 5em;
-}
-
 .contact-message {
   display: block;
 }
@@ -292,4 +268,34 @@ textarea:focus {
   border: 0.1em solid #B2EBF2;
   color: #0097A7;
   outline: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+
+  .masthead-heading {
+    font-size: 3em;
+  }
+
+  .projects img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .content-footer > p {
+    font-size: 0.8em;
+  }
+
+  .page-links {
+    display: none;
+  }
+
+  .email-form {
+    width: 25em;
+    text-align: center;
+    padding-bottom: 5em;
+  }
 }
